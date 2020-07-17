@@ -1,0 +1,23 @@
+1) Which field of the Customers table is the primary key?
+Ans-CNUM column having all unique values so primary key for customers table is CNUM.
+
+2) What is the 4th column of the Customers table?
+Ans-Rating is the fourth column of Customers Table.
+
+3) What is another word for row? For column?
+Ans-Tuple/Entity/Opportunity are the another names for Row and
+   -Filed/Attribute is another name for column,
+
+4) Why isn’t it possible to see the first five rows of a table?
+Ans-In RDBMS each row is stored as indivisual file and it stores randomly at any location wherever free space available in Server HD.
+   -the searching is done on server HD as Top to Botoom and Left to Right So When we fire Query for accessing rows it fetchtes in Ram as first come first serve basis.
+   -That's why we don't get first five rows.
+   - Rows of a table are not stored sequentially
+   - Rows of a table are scattered (fragmentated) all over the database server Hard disk 
+   - When you insert into a table wherever  the system finds the free space in the database server HD, it will store 
+     the row there the reason that RDBMS does this is to speed up the insert statement
+   - When you select a table , the order of row in the output depends on the row address
+   - When you update a row , if the row length is increasing , then the entire row may be moved to some 
+     other address later when you select from the table,you will find the row at some other position in the output.
+   - It's only in the case of varchar that the row length may increase or decrease
+   - Hence , it is not possible to view 1st and last 'N' row of a table. 
