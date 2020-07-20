@@ -1,8 +1,14 @@
 
-
+CREATE TABLE SEMP(
+			EMPNO char(4),
+			EMPNAME char(20),
+			BASIC float(9,2),
+			DEPTNO char(2),
+			DEPTHEAD char(4)
+		);
 CREATE TABLE SDEPT (
-			DEPTNO CHAR(2),
-			DEPTNAME CHAR(15)
+			DEPTNO char(2),
+			DEPTNAME char(15)
 		   );
 
 
@@ -28,6 +34,14 @@ create table PROJECTS (
 				 City char(15)
 		      );
 
+
+create table PARTS (
+			`P#` char(4), 
+			 Pname varchar(25),
+			 Color varchar(15),
+			 Weight float(5,3),
+			 City varchar(15)
+		   );
 
 
 
