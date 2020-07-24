@@ -12,6 +12,8 @@ Ans-Tuple/Entity/Opportunity are the another names for Row and
 Ans-In RDBMS each row is stored as indivisual file and it stores randomly at any location wherever free space available in Server HD.
    -the searching is done on server HD as Top to Botoom and Left to Right So When we fire Query for accessing rows it fetchtes in Ram as first come first serve basis.
    -That's why we don't get first five rows.
+
+
    - Rows of a table are not stored sequentially
    - Rows of a table are scattered (fragmentated) all over the database server Hard disk 
    - When you insert into a table wherever  the system finds the free space in the database server HD, it will store 

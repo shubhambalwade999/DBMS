@@ -5,7 +5,7 @@ Ans-select Onum,Amt,Odate from ORDERS;
 Ans-select * from Customers where Snum = 1001;
 
 3) Write a query that displays the Salespeople table with the columns in the following order: city, sname, snum, comm.
-Ans-select scity, sname, snum, comm from salespeople;
+Ans-select city, sname, snum, comm from salespeople;
 
 4) Write a select command that produces the rating followed by the name of each customer in San Jose.
 Ans-select Rating,Cname from customers where City = "San Jose";
